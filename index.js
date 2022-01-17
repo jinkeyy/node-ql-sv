@@ -14,6 +14,7 @@ app.use(cors())
 
 app.listen(process.env.PORT || 3000, () => {
     console.log(process.env.PORT);
+    console.log("Hello");
 })
 
 require("./src/routes/student.route")(app)
